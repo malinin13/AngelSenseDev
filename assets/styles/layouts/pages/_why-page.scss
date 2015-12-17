@@ -1,0 +1,313 @@
+.why-hero {
+  @include div-with-img-background(350px, 'why-page/why_hero_bg.png');
+  @include bg-cover-centered();
+
+  @media screen and (max-width: $screen-xs-max) {
+    min-height: 0;
+    height: 15rem;
+  }
+}
+
+.unique-section {
+  @media screen and (max-width: $screen-xs-max) {
+    padding: 20px 0 40px!important;
+    .brand-title {
+      font-size: 24px;
+    }
+  }
+}
+
+.why-full-day-view {
+  @extend .top-divider-border;
+  padding-top: 50px;
+
+  @media screen and (min-width: $screen-sm-min) {
+    @include div-with-img-background(610px, 'why-page/why-full-day-view.png');
+    @include bg-cover-centered();
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    padding-top: 250px;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    padding: 35px 0;
+
+    .img-responsive {
+      margin-top: 50px;
+    }
+  }
+}
+
+.why-proven {
+  padding-top: 30px;
+
+  @media screen and (min-width: $screen-sm-min) {
+    @include div-with-img-background(1000px, 'why-page/why-proven-mobile-bg.png');
+    background-size: inherit;
+    background-position: bottom left;
+  }
+
+  a {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  @media screen and (max-width: $screen-sm-max) {
+    a {
+      text-align: center;
+    }
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    @include div-with-img-background(550px, 'why-page/why-proven-bg.png');
+    background-size: initial;
+    background-position: top center;
+    padding-top: 200px;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    @include div-with-img-background(750px, 'why-page/why-proven-mobile-bg.png');
+
+    background-size: 350px;
+    background-position: left bottom;
+  }
+
+  @media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    background-size: inherit;
+    background-position: left -350px top;
+  }
+
+}
+
+.why-listen {
+  min-height: 500px;
+  padding-top: 30px;
+
+  @media screen and (min-width: $screen-md-min) {
+    padding-top: 100px;
+
+    .media {
+      padding-top: 100px;
+    }
+
+  }
+
+  //@media screen and (max-width: $screen-sm-max) {
+  //  .media {
+  //    padding-bottom: 50px;
+  //  }
+  //}
+
+  @media screen and (min-width: $screen-sm-min) {
+    .media {
+      padding-top: 30px;
+    }
+  }
+
+}
+
+.why-designed {
+  padding-top: 30px;
+
+  @media screen and (max-width: $screen-sm-max) {
+    @include div-with-img-background(900px, 'why-page/why-designed-mobile-bg.png');
+    @include bg-cover-centered();
+    padding-bottom: 500px;
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    @include div-with-img-background(550px, 'why-page/why-designed-bg.png');
+    @include bg-cover-centered();
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    padding-top: 100px;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    background-position: left 90% bottom;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .small-phone {
+    position: absolute;
+    top: 50px;
+    right: -50px;
+  }
+
+}
+
+.why-alerts {
+  @include div-with-img-background(520px, 'why-page/why-alerts-bg.png');
+  @include bg-cover-centered();
+  padding-top: 30px;
+  position: relative;
+
+  .dashed-circle-left, .dashed-circle-right {
+    position: absolute;
+    top: 0;
+  }
+
+  .dashed-circle-left {
+    left: 0;
+  }
+
+  .dashed-circle-right {
+    right: 0;
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    min-height: 510px;
+
+    div[class*="col-"] {
+      min-height: 510px;
+    }
+
+    .alerts-phone {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  @media screen and (min-width: $screen-lg-min) {
+    min-height: 330px;
+
+    div[class*="col-"] {
+      min-height: 330px;
+    }
+  }
+
+  @media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    min-height: 410px;
+
+    div[class*="col-"] {
+      min-height: 410px;
+    }
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    padding-top: 100px;
+  }
+
+  @media screen and (min-width: $screen-lg-min) {
+    padding-top: 190px;
+  }
+
+}
+
+.why-alarm {
+  padding-top: 30px;
+
+  @media screen and (max-width: $screen-sm-max) {
+    @include div-with-img-background(1050px, 'why-page/why-alarm-mobile-bg.png');
+    @include bg-cover-centered();
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    @include div-with-img-background(450px, 'why-page/why-alarm-bg.png');
+    background-position: right -400px center;
+  }
+
+  @media screen and (min-width: $screen-lg-min) {
+    @include bg-cover-centered();
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    padding-top: 150px;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .small-phone {
+    position: absolute;
+    top: 50px;
+    right: -50px;
+  }
+
+}
+
+.why-dashboard {
+  .container {
+    @include div-with-img-background(450px, 'why-page/why-kids.png');
+    background-size: inherit;
+    background-position: left bottom -20px;
+
+    @media screen and (max-width: $screen-sm-max) {
+      min-height: 800px;
+      background-position: bottom -20px center;
+    }
+
+    @media screen and (max-width: $screen-xs-max) {
+      min-height: 600px;
+      background-size: 300px;
+      padding-bottom: 300px;
+    }
+  }
+  .media {
+    padding-top: 30px;
+
+    @media screen and (min-width: $screen-md-min) {
+      padding-top: 160px;
+    }
+  }
+}
+
+.why-support {
+  padding: 100px 0;
+  position: relative;
+  background-color: $brand-success;
+
+  .container-fluid {
+    max-width: 1600px;
+    @media screen and (max-width: 1500px) {
+      max-width: 1300px;
+    }
+  }
+
+  p, .brand-subtitle {
+    color: #fff;
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    background-image: url('../images/dashed-circle-right-white.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (max-width: $screen-sm-max) {
+    background-color: $brand-primary;
+
+    .container-fluid {
+      max-width: 500px;
+    }
+
+    h2 {
+      margin-top: 50px;
+    }
+
+    p {
+      margin-bottom: 50px;
+    }
+  }
+
+}
+
+.mobile-cta {
+  &.is_stuck {
+    position: fixed !important;
+    top: auto !important;
+    bottom: 0 !important;
+    left: 0;
+    transform: none;
+    width: 100% !important;
+    z-index: 10;
+    border-radius: 0;
+    border: none !important;
+  }
+}

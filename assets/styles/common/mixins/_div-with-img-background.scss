@@ -1,0 +1,6 @@
+@mixin div-with-img-background($height, $bg-name) {
+  min-height: $height;
+  background-image: url('../images/' + $bg-name);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

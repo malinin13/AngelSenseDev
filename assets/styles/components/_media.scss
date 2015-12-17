@@ -1,0 +1,24 @@
+.media-left, .media > .pull-left {
+  padding-right: 25px;
+}
+
+.media-object {
+  margin-top: 40px;
+
+  @media screen and (max-width: $screen-xs-max) {
+    margin-top: 20px;
+  }
+}
+
+.media-mobile-centered {
+  @media screen and (max-width: $screen-sm-max) {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+
+    .media-object {
+      display: inline-block;
+    }
+  }
+}

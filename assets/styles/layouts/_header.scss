@@ -1,0 +1,57 @@
+.navbar {
+  font-weight: 600;
+
+  .navbar-brand {
+    img {
+      @media screen and (min-width: $screen-lg-min) {
+        position: relative;
+        top: -4px;
+      }
+
+      @media screen and (max-width: $screen-md-max) {
+        width: 180px;
+      }
+
+      @media screen and (max-width: $screen-xs-max) {
+        width: 150px;
+      }
+    }
+  }
+
+  .btn-warning {
+    margin-left: 15px;
+
+    @media screen and (min-width: $screen-md-min) {
+      @include center-vertically(70px, 33px);
+    }
+
+    @media screen and (max-width: $screen-xs-max) {
+      margin: 10px;
+    }
+  }
+
+  @media screen and (min-width: $screen-lg-min) {
+    font-size: 16px;
+
+    .container-fluid {
+      padding: 0 45px;
+      max-width: 1500px;
+    }
+  }
+
+}
+
+.navbar-toggle .icon-bar {
+  height: 3px;
+}
+
+@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .nav > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.navbar-fixed-top {
+  border-top: 4px solid $brand-success;
+}
