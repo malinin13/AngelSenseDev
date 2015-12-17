@@ -1,16 +1,9 @@
 {
-  "name": "sage",
-  "version": "8.2.1",
-  "author": "Ben Word <ben@benword.com>",
-  "homepage": "https://roots.io/sage/",
+  "name": "",
+  "version": "",
+  "author": "",
+  "homepage": "",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/roots/sage.git"
-  },
-  "bugs": {
-    "url": "https://github.com/roots/sage/issues"
-  },
   "licenses": [
     {
       "type": "MIT",
