@@ -1,0 +1,14 @@
+.corner-info {
+  position: fixed;
+  top: -24px;
+  left: -83px;
+  z-index: $zindex-navbar-fixed + 1;
+  background-color: $brand-success;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  padding: 50px 70px 15px;
+  transform: rotate(-45deg);
+
+  @include custom-link(#fff);
+}
