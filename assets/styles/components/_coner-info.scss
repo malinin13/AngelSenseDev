@@ -1,14 +1,32 @@
 .corner-info {
   position: fixed;
-  top: -24px;
-  left: -83px;
+  top: -25px;
+  left: -78px;
   z-index: $zindex-navbar-fixed + 1;
   background-color: $brand-success;
   font-weight: bold;
-  font-size: 18px;
   text-align: center;
-  padding: 50px 70px 15px;
+  padding: 50px 60px 5px;
   transform: rotate(-45deg);
 
   @include custom-link(#fff);
+
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 18px;
+  }
+}
+
+.close {
+  position: absolute;
+  top: 22px;
+  left: 93px;
+  transform: rotate(45deg);
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+
+  @media screen and (min-width: $screen-sm-min) {
+    top: 15px;
+    left: 100px;
+  }
 }
