@@ -4,7 +4,7 @@
 
   @media screen and (max-width: $screen-xs-max) {
     min-height: 0;
-    height: 15rem;
+    height: 23rem;
   }
 }
 
@@ -272,6 +272,11 @@
 
   p, .brand-subtitle {
     color: #fff;
+  }
+
+  .btn-order {
+    padding-bottom: 15px;
+    padding-top: 15px;
   }
 
   @media screen and (min-width: $screen-sm-min) {
