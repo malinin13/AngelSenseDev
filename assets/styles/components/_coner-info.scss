@@ -14,19 +14,21 @@
   @media screen and (min-width: $screen-sm-min) {
     font-size: 18px;
   }
-}
 
-.close {
-  position: absolute;
-  top: 22px;
-  left: 93px;
-  transform: rotate(45deg);
-  color: #fff;
-  text-shadow: none;
-  opacity: 1;
+  .close {
+    position: absolute;
+    top: 22px;
+    left: 93px;
+    transform: rotate(45deg);
+    color: #fff;
+    text-shadow: none;
+    opacity: 1;
 
-  @media screen and (min-width: $screen-sm-min) {
-    top: 15px;
-    left: 100px;
+    @media screen and (min-width: $screen-sm-min) {
+      top: 15px;
+      left: 100px;
+    }
   }
 }
+
+

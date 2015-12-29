@@ -1,0 +1,150 @@
+.in-press {
+
+  h2 {
+    margin-top: 15px;
+    margin-bottom: 55px;
+  }
+
+  h3 {
+    margin-top: 15px;
+    margin-bottom: 24px;
+  }
+
+  /*press page specific content*/
+
+  .press-content-section {
+    padding-bottom: 20px;
+  }
+  .press-tv-container-main {
+    margin-left: auto;
+  }
+  .press-tv-container-small {
+    margin: 0 auto 0 auto;
+  }
+  .press-tv-container-main img.press-video-thumbnail {
+    margin-bottom: 2em;
+    cursor: pointer;
+    width: 100%;
+    max-width: 518px;
+  }
+  .press-tv-container-small img.press-video-thumbnail {
+    margin-bottom: 1em;
+    cursor: pointer;
+    width: 100%;
+    max-width: 372px;
+  }
+
+  .link-element {
+    cursor: pointer;
+  }
+  .press-media-coverage .link-element:hover {
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.08);
+  }
+  .press-media-coverage .link-element a:hover {
+    color: #3abeb0;
+    text-decoration: none;
+  }
+  @media screen and (min-width: 992px) {
+    .press-tv-col {
+      float: right !important;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .press-tv-container-main img.press-video-thumbnail {
+      margin-left: 0;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .press-tv-container-main img.press-video-thumbnail {
+      margin-left: 0;
+      margin: 0 0 0 auto;
+    }
+  }
+
+  .press-tv-highlights p {
+    font-size: 1.2em;
+  }
+  .press-media-coverage p {
+    font-size: 1em;
+    line-height: 160%;
+  }
+  .press-media-coverage h4 {
+    line-height: 120%;
+    padding-bottom: 0.3em;
+    min-height: 4em;
+  }
+  .press-media-coverage h4 a {
+    font-weight: 400 !important;
+  }
+  .press-media-coverage p {
+    font-size: 1em;
+    line-height: 160%;
+  }
+  .press-media-coverage .panel-body p.text-center img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px;
+  }
+  .press-address-panel-body {
+    padding-left: 4em;
+  }
+
+  .press-tv-container-small {
+    position: relative;
+    display: table;
+  }
+  .press-video-hover-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  .press-video-hover-layer p {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  .press-video-hover-layer p span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  a.press-video-button {
+    display: inline-block;
+    background: black url("../images/press-page/play-icon.png") no-repeat center center;
+    border-radius: 15px;
+    height: 50px;
+    width: 75px;
+
+  }
+  a.press-video-button:hover {
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.08);
+    background-color: #059888;
+
+  }
+
+  @media (min-width: 992px) {
+    .press-media-inquiries .panel {
+      height: 260px;
+      min-height: 260px;
+    }
+  }
+  .panel.panel-press-learn-more {
+    color: white;
+    background: #31b3a5 url("../images/press-page/learn-more-background.png") center center no-repeat;
+    padding: 5px;
+  }
+  .panel.panel-press-learn-more .panel-inside {
+    border: 1px solid white;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+  }
+  .panel.panel-press-learn-more .panel-body {
+    padding-top: 3em;
+  }
+
+}
