@@ -7,7 +7,7 @@
 
   h1 {
     font-size: 5.5rem;
-    text-shadow: 3px 0px 0px rgba(0, 0, 0, 0.62);
+    //text-shadow: 3px 0px 0px rgba(0, 0, 0, 0.62);
   }
 
   h3 {
@@ -15,6 +15,10 @@
     line-height: 24px;
     margin: 4rem 0;
     font-weight: 100;
+  }
+
+  .btn-success {
+    padding: 8.5px 30px;
   }
 
 
