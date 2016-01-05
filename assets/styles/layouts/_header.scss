@@ -15,6 +15,12 @@
       @media screen and (max-width: $screen-xs-max) {
         width: 150px;
       }
+      @media screen and (max-width: $screen-add-logo-margin-desktop) {
+        margin-left: 190px;
+      }
+      @media screen and (max-width: $screen-remove-logo-margin-mobile) {
+        margin-left: 0px;
+      }
     }
   }
 
