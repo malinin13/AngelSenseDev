@@ -26,7 +26,7 @@
   }
   .press-tv-container-main {
     margin-left: auto;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
   .press-tv-container-small {
     margin: 0 auto 0 auto;
@@ -74,6 +74,10 @@
 
   .press-tv-highlights p {
     font-size: 1.2em;
+
+    @media screen and (max-width: $screen-xs-max) {
+      margin-bottom: 25px;
+    }
   }
   .press-media-coverage p {
     font-size: 1em;
