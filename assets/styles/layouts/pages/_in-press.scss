@@ -1,8 +1,17 @@
 .in-press {
 
   h2 {
-    margin-top: 15px;
-    margin-bottom: 55px;
+
+    @media screen and (max-width: $screen-xs-min) {
+      margin-bottom: 15px;
+    }
+
+    @media screen and (min-width: $screen-sm-min) {
+      margin-top: 15px;
+      margin-bottom: 55px;
+    }
+
+
   }
 
   h3 {
@@ -17,6 +26,7 @@
   }
   .press-tv-container-main {
     margin-left: auto;
+    margin-bottom: 15px;
   }
   .press-tv-container-small {
     margin: 0 auto 0 auto;
