@@ -95,9 +95,12 @@ p {
       border-radius: 50%;
       border: 1px solid #fff;
       position: absolute;
-      top: 50%;
-      margin-top: -7px;
+      top: 19px;
       left: 0;
+
+      @media screen and (max-width: $screen-xs-max) {
+        top: 6px;
+      }
     }
 
     @media screen and (max-width: $screen-xs-max) {

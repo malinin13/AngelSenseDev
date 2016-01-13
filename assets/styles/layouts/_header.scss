@@ -3,20 +3,18 @@
 
   .navbar-brand {
     img {
+      @media screen and (max-width: $screen-add-logo-margin-desktop) {
+        margin-left: 190px;
+      }
       @media screen and (min-width: $screen-lg-min) {
         position: relative;
         top: -4px;
       }
-
       @media screen and (max-width: $screen-md-max) {
         width: 180px;
       }
-
       @media screen and (max-width: $screen-xs-max) {
         width: 150px;
-      }
-      @media screen and (max-width: $screen-add-logo-margin-desktop) {
-        margin-left: 190px;
       }
       @media screen and (max-width: $screen-remove-logo-margin-mobile) {
         margin-left: 0px;
