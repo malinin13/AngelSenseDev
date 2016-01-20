@@ -1,0 +1,65 @@
+.article-content {
+  h3 {
+    margin-top: 0;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 14px;
+  }
+}
+
+.article-info {
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin: 25px 0 0;
+  color: #888888;
+  font-size: 12px;
+
+  ul {
+    margin: 0;
+
+    li {
+      padding: 0;
+    }
+  }
+}
+
+.blog-page {
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  article {
+    margin-bottom: 90px;
+
+    &:last-of-type {
+      margin-bottom: 50px;
+    }
+  }
+
+  aside {
+    .embed-responsive {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+.blog-aside-links {
+  @include custom-link(#696767);
+  margin-top: 25px;
+
+  li {
+    padding: 10px 0;
+    border-bottom: 1px solid #696767;
+
+    a {
+      display: block;
+    }
+  }
+}
