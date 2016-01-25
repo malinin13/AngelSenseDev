@@ -4091,6 +4091,14 @@ p {
   @media (max-width: 480px) {
     .no-mobile {
       display: none !important; } }
+.no-mobile-block {
+  display: block !important; 
+}
+@media (max-width: 480px) {
+  .no-mobile-block {
+    display: none !important; 
+  } 
+}
 
 .search-form {
   margin-top: 50px;
